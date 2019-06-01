@@ -1,0 +1,30 @@
+Package: P2C2M.SNAPP
+Type: Package
+Title: Posterior Predictive Checks with SNAPP
+Version: 1.0.0
+Authors@R: c(person("Drew", "Duckett", email = "duckettdj@gmail.com", 
+    role = c("aut", "cre")), person("Tara", "Pelletier", email = "tpelletier@radford.edu", 
+    role = "aut"), person("Bryan", "Carstens", email = "carstens.12@osu.edu", role = "aut"))
+Description: Uses SNAPP output to generate posterior predictive datasets and compare 
+    summary statistics between empirical and posterior predictive datasets to identify
+    violations of the Multispecies Coalescent Model employed by SNAPP.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: 
+    ape (>= 5.2),
+    ggplot2 (>= 3.1.0),
+    graphics (>= 3.5.0),
+    ggtree (>= 1.12.0),
+    grDevices (>= 3.5.0),
+    gsubfn (>= 0.7),
+    KRIS (>= 1.1.1),
+    stats (>= 3.5.0),
+    utils (>= 3.5.0)
+SystemRequirements: fastsimcoal26
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
