@@ -1,8 +1,0 @@
-citHeader("To cite P2C2M.SNAPP in publications use:")
-
-citEntry(entry = "Article",
-  title = "Identifying model violations under the Multispecies Coalescent model using P2C2M.SNAPP",
-  author = personList(as.person("Drew Duckett"), as.person("Tara Pelletier"), as.person("Bryan Carstens")),
-  journal = "PeerJ",
-  year = "submitted",
-  textVersion = "Duckett, D.J., Pelletier, T.A., and Carstens, B.C. Submitted. Identifying model violations under the Multispecies Coalescent model with P2C2M.SNAPP.")
