@@ -1,0 +1,38 @@
+//Number of population samples (demes)
+6 samples to simulate:
+//Population effective sizes (number of genes)
+13002475.7832085
+8694140.63911054
+780770.040531437
+619360.347912176
+600284.090853821
+603679.177309563
+//Sample sizes
+4
+4
+4
+4
+4
+4
+//Growth rates	: negative growth implies population expansion
+0
+0
+0
+0
+0
+0
+//Number of migration matrices : 0 implies no migration between demes
+0
+//historical event: time, source, sink, migrants, new size, new growth rate, migr. matrix
+5 historical events
+16844.6153284773 0 1 1 2.49554468036978 0 0
+2646843.36745171 4 5 1 1.99437600867588 0 0
+5433152.89785963 3 5 1 1.5144345880726 0 0
+5787032.06028601 2 1 1 1.03598579729364 0 0
+9214960.49383776 5 1 1 1.08111813262138 0 0
+//Number of independent loci [chromosome]
+2000
+//Per chromosome: Number of linkage blocks
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+SNP 1 0.00000 0.00000
