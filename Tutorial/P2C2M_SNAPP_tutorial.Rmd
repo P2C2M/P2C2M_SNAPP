@@ -41,7 +41,7 @@ BiocManager::install("ggtree")
 
 *Additional*:  
 fastsimcoal2 (Excoffier et al., 2013: available at [http://cmpg.unibe.ch/software/fastsimcoal2/])
-See fastsimcoal2 website for if you encounter errors - they may be due to the version of gcc on your computer.
+See fastsimcoal2 website for if you encounter errors - they may be due to the version of gcc on your computer. If you see a dyld error, it can be fixed by using the code at https://gist.github.com/jonchang/46f24dd460bab840ba69a24190fe11f8. Thanks to Jonathan Chang and Tara Pelletier for figuring out how to fix this issue.
 
 *System*:
 Mac users need to have XQuartz installed for fastsimcoal2 to run: available at [https://www.xquartz.org]
