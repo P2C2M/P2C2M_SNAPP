@@ -40,7 +40,7 @@ BiocManager::install("ggtree")
 
 #### Additional:
 
-fastsimcoal2 (Excoffier et al., 2013: available at \[<http://cmpg.unibe.ch/software/fastsimcoal2/>\]) See fastsimcoal2 website if you encounter errors - they may be due to the version of gcc on your computer.
+fastsimcoal2 (Excoffier et al., 2013: available at \[<http://cmpg.unibe.ch/software/fastsimcoal2/>\]) See fastsimcoal2 website if you encounter errors - they may be due to the version of gcc on your computer. If you see a dyld error, it can be fixed by using the code at https://gist.github.com/jonchang/46f24dd460bab840ba69a24190fe11f8. Thanks to Jonathan Chang and Tara Pelletier for figuring out how to fix this issue.
 
 #### System:
 
@@ -56,4 +56,4 @@ The P2C2M.SNAPP package contains a single function, *run.p2c2m.snapp*. It requir
 Citation
 --------
 
-Please cite P2C2M.SNAPP as: Duckett, D.J., Pelletier, T.A., and Carstens, B.C. Submitted. Identifying model violations under the Multispecies Coalescent model with P2C2M.SNAPP. PeerJ.
+Please cite P2C2M.SNAPP as: Duckett, D.J., Pelletier, T.A., and Carstens, B.C. 2020. Identifying model violations under the Multispecies Coalescent model with P2C2M.SNAPP. PeerJ 8:e8271 https://doi.org/10.7717/peerj.8271.
